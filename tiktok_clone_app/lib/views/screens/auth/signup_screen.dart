@@ -24,7 +24,7 @@ class SignupScreen extends StatelessWidget {
                   color: buttonColor,
                   fontWeight: FontWeight.w900),
             ),
-            Text(
+            const Text(
               'Register',
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.w700),
             ),
@@ -96,7 +96,7 @@ class SignupScreen extends StatelessWidget {
                 onTap: () {
                   print('Register User');
                 },
-                child: Center(
+                child: const Center(
                   child: Text(
                     'Register',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),

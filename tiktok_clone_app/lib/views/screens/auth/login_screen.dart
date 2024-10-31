@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
                   color: buttonColor,
                   fontWeight: FontWeight.w900),
             ),
-            Text(
+            const Text(
               'Login',
               style: TextStyle(fontSize: 25, fontWeight: FontWeight.w700),
             ),
@@ -61,7 +61,7 @@ class LoginScreen extends StatelessWidget {
                 onTap: () {
                   print('Login User');
                 },
-                child: Center(
+                child: const Center(
                   child: Text(
                     'Login',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
